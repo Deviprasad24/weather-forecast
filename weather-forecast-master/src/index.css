@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+     --bgColor : #50586c
+     
+}
+
+input::placeholder {
+     color: rgba(0, 0, 0, 0.371);
+     padding-left: 15px;
+}
+
+
+body{
+     background-color: var(--bgColor);
+}
+
